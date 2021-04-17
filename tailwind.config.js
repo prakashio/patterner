@@ -4,7 +4,8 @@ module.exports = {
     content: [
       './src/**/*.jsx',
       '**/*.css',
-      '**/*.html'
+      '**/*.html',
+      './index.css'
     ]
   },
   darkMode: false, // or 'media' or 'class'
