@@ -1,12 +1,11 @@
 import React from 'react'
 import { PatterViewProps } from './types'
-import Pattern from '../../assets/pattern.jpg'
 
 const PatternView: React.FC<PatterViewProps> = (props) => {
     return (
-        <section {...props} className="col-span-2">
-            <img src={Pattern} className="object-contain rounded-lg" />
-        </section >
+        <section {...props} className="col-span-2 rounded-lg border border-gray-100 bg-gray-50">
+
+        </section>
     )
 }
 
